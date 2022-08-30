@@ -267,6 +267,16 @@ article {
   }
 }
 
+@media screen and (max-width: 380px) and (min-width:200px) {
+  .columns1 {
+    display: inline-block;
+    padding: 5px;
+    height: 196px;
+    margin-left: 12px;
+    object-fit: contain;
+  }
+}
+
 
 h3 {
   font-family: "sora", sans-serif;
@@ -353,6 +363,12 @@ hr {
   color: #67b2ab;
 }
 
+@media screen and (max-width: 530px) {
+  .container-2-text h1{
+    font-size: 2rem;
+  }
+}
+
 .container-2-text p {
   font-size: 18px;
   font-weight: 400;
@@ -425,6 +441,13 @@ hr {
   div.space-cont {
     display: block;
     width: 709px;
+  }
+}
+
+@media screen and (max-width: 530px) and (min-width:200px) {
+  .container-3 {
+    width: 100%;
+    margin-left: 40px;
   }
 }
 
@@ -517,6 +540,12 @@ hr {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 530px) {
+  .space-text{
+    font-size: 2rem;
+  }
+}
+
 .space-cont p {
   margin: left 50px;
 }
@@ -525,6 +554,12 @@ hr {
   font-size: 2rem;
   text-align: center;
   margin-top: 60px;
+}
+
+@media screen and (max-width: 530px) {
+  .partners{
+    font-size: 1.7rem;
+  }
 }
 
 .partners-img-1 {
@@ -562,6 +597,12 @@ hr {
   margin-top: 60px;
   font-size: 2rem;
   text-align: center;
+}
+
+@media screen and (max-width: 530px) {
+  .text-3{
+    font-size: 1.7rem;
+  }
 }
 
 .container-4 {
