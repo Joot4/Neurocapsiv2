@@ -456,7 +456,7 @@ hr {
 @media screen and (max-width: 530px) and (min-width:200px) {
   .container-3 {
     width: 100%;
-    margin-left:  5px;
+    margin-left:  15px;
     margin-top: 15px;
     padding: 20px;
   }
@@ -472,7 +472,7 @@ hr {
 
 @media screen and (max-width: 530px) and (min-width:200px) {
   .space {
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 }
 
