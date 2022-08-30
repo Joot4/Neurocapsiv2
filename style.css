@@ -428,7 +428,7 @@ hr {
 .container-3 {
   max-width: 100%;
   display: grid;
-  gap:30px;
+  gap:6px;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
@@ -445,7 +445,7 @@ hr {
     
   }
   div.space {
-    margin-top:7px;
+    margin-top:30px;
   }
   div.space-cont {
     display: block;
@@ -456,6 +456,8 @@ hr {
 @media screen and (max-width: 530px) and (min-width:200px) {
   .container-3 {
     width: 100%;
+    margin-left:  5px;
+    margin-top: 15px;
     padding: 20px;
   }
 }
