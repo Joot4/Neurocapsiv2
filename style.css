@@ -414,7 +414,7 @@ hr {
   display: grid;
   gap:50px;
   margin: 0 auto;
-  grid-template-columns: 510px 700px;
+  grid-template-columns: 510px 710px;
   justify-content: space-between;
   align-items: center;
 }
@@ -426,22 +426,20 @@ hr {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 60px;
-    margin-left: 60px;
+    margin-top: 33px;
+    margin-left: 35px;
   }
   div.space {
     margin-top:7px;
   }
-  div.space-cont {
-    display: block;
-    width: 709px;
-  }
+
 }
 
-@media screen and (max-width: 530px) and (min-width:200px) {
+@media screen and (max-width: 720px) and (min-width:200px) {
   .container-3 {
-    /* width: 100%;
-    margin-left: 40px; */
+    width: 700px;
+    padding: 20px;
+
   }
 }
 
@@ -455,7 +453,8 @@ hr {
 
 @media screen and (max-width: 530px) and (min-width:200px) {
   .space {
-    margin: 0 auto;
+    width: 400px;
+    margin-left: 20px;
   }
 }
 
